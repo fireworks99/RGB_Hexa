@@ -1,4 +1,5 @@
 # RGB_Hexa
+**A chrome extension**
 rgb2hexa and hexa2rgb
 
 
