@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 20px;
+        width: 100%;
+        outline: none;
+        margin-top: 5px;
+      }
+      #output {
+        margin-top: 5px;
+      }
+      #copy {
+        text-align: center;
+        width: 60px;
+        position: fixed;
+        right: 9px;
+        top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <input id="input" type="text" name="input" placeholder="Input x,x,x or #xxxxxx">
+    <input id="output" type="text" name="output" style="visibility: hidden;">
+    <button id="copy" style="visibility: hidden;">Copy</button>
+    <button id="convert">Convert</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
